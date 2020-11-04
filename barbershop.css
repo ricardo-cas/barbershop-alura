@@ -1,12 +1,24 @@
 * {
     background: #cccccc;
 }
+/* 
+Dimenções no CSS:
+    - Largura do elemento -> width pode ser me px ou geralmente em percentual
+    - Altura do Elemento -> height em px
+    - Espaçamento interno no elemento -> padding, pode ser configurado de várias formas, ele pode ser configurado em todos os lados, ou so pra cima, ou só pra baixo, ou so pra laterais. padding é o espaçamento interno, para fazer com que o elemento se comporte melhor no espaço que ele já tem.
+    - Espaçamento externo do elemento -> margin. ou para direita ou para esquerda, ou todos os lados
+*/
+#banner {
+    width: 100%;
+}
 
 h1 {
     text-align: center;
     font-size: 36px;
     background: #848484;
     color: white;
+    /* height: 150px; */
+    /* padding é o espaçamento interno, para fazer com que o elemento se comporte melhor no espaço que ele já tem */
 }
 
 p {
