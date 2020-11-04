@@ -1,5 +1,5 @@
-* {
-    background: #cccccc;
+body {
+  /* background: #848484; */
 }
 /* 
 Dimenções no CSS:
@@ -9,32 +9,79 @@ Dimenções no CSS:
     - Espaçamento externo do elemento -> margin. ou para direita ou para esquerda, ou todos os lados
 */
 #banner {
-    width: 100%;
+  width: 100%;
+}
+
+#principal {
+  background: #cccccc;
 }
 
 h1 {
-    text-align: center;
-    font-size: 36px;
-    background: #848484;
-    color: white;
-    /* height: 150px; */
-    /* padding é o espaçamento interno, para fazer com que o elemento se comporte melhor no espaço que ele já tem */
+  /* text-align: center; */
+  font-size: 36px;
+  background: #848484;
+  color: white;
+  /* height: 150px; */
+  /* padding é o espaçamento interno, para fazer com que o elemento se comporte melhor no espaço que ele já tem */
 }
 
 p {
-    text-align: center;
+  text-align: center;
 }
 
 /* Para referenciar um ID é necessário utilizar # */
 #missao {
-    font-size: 20px;
+  font-size: 20px;
 }
-
 
 strong {
-    color: teal;
+  color: teal;
 }
 
-em{
-    color: red;
+em {
+  color: red;
+}
+
+/* Para definir estilos em classes utilizar o .<nome_da_classe> */
+.itens {
+  /* definindo o texto para italico */
+  font-style: italic;
+}
+
+.principal {
+  /* Espaçamento interno */
+  padding: 30px;
+}
+
+.texto-centralizado{
+    text-align: center;
+}
+.beneficios {
+  background: #cccccc;
+}
+.titulo-principal{
+    padding-left: 20px;
+}
+
+ul {
+  /* o Display inline-block -> OCUPA SOMENTE A LARGURA DO SEU CONTEÚDO E POSSIBILITA MEXER NOS ESPAÇAMENTOS DELE */
+  display: inline-block;
+  /* por padrão o alinhamento do conteúdo é feito pelo último item
+    utilizando o vertical-align:  para definir qual o alinhamento que ele irá utilizar; */
+  vertical-align: top;
+  width: 20%;
+  padding-right: 15%;
+}
+
+.imagembeneficios {
+  width: 50%; /*  definindo a largura da imagem para 50% */
+  /* adicionar um espaçamento interno para todos os lados */
+  padding: 20px;
+}
+
+
+/* Adicionado rodapé para o site */
+footer {
+    text-align: center;
+    font-style: italic;
 }

@@ -28,25 +28,35 @@
     <title>Barbearia | ricardo.digital</title>
 </head>
 <body>
+    <!-- No HTML 5 o cabeçalho devemos utilizar a tag header -->
+    <header>
+        <h1 class= "titulo-principal">Barbearia Digital</h1>
+    </header>
     <!-- para utilizar uma imagem, utilize a tag IMG -->
     <img id="banner" src="./banner.jpg" alt="cadeiras de barbearia">
-
-    <h1>Barbearia Digital</h1>
-
-    <p>Localizada no coração da cidade a <strong>Barbearia Digital</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.    </p>
-    <p id="missao"><em>Nossa missão é: "Proporcionar auto-estima e qualidade de vida aos clientes".</em></p>
-    <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-
-    <h2>Benefícios</h2>
-        <!-- a lista não ordenada é UL
-        a    a lista ornedade é OL
-            os itens são representados LI -->
-        <ul>
-            <li class="itens">Atendimento a Clientes</li>
-            <li class="itens">Espaço diferenciado</li>
-            <li class="itens">Localização</li>
-            <li class="itens">Profissionais qualificados</li>
-        </ul>
-
+    
+    <!-- As divisões servem para marcar o conteúdo e a partir do nosso CSS fazer o estilo que quisermos -->
+    <div class="principal">
+        <h2 class="texto-centralizado">Sobre a Barbearia Digital</h2>
+        <p>Localizada no coração da cidade a <strong>Barbearia Digital</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.    </p>
+        <p id="missao"><em>Nossa missão é: "Proporcionar auto-estima e qualidade de vida aos clientes".</em></p>
+        <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+    </div>
+    <div class="beneficios">
+        <h3 class="texto-centralizado">Benefícios</h3>
+            <!-- a lista não ordenada é UL
+            a    a lista ornedade é OL
+                os itens são representados LI -->
+            <ul>
+                <li class="itens">Atendimento a Clientes</li>
+                <li class="itens">Espaço diferenciado</li>
+                <li class="itens">Localização</li>
+                <li class="itens">Profissionais qualificados</li>
+            </ul>
+            <img src="./beneficios.jpg" alt="beneficios do associado" class="imagembeneficios">
+    </div>
 </body>
+<footer>
+    Copyright © 2020 Ricardo Digital, All rights reserved.
+</footer>
 </html>
