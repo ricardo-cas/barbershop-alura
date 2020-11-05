@@ -71,17 +71,32 @@ header {
   box-sizing: border-box;
   /* 
   #######################################################################################
-    Ajustando as propriedades da borda dos itens, pelos seus 3 principais aspectos:
-    tamanho: border-width: 2px;
-    tipo: border-style: solid;
-    cor: border-color: black;
+  Ajustando as propriedades da borda dos itens, pelos seus 3 principais aspectos:
+  tamanho: border-width: 2px;
+  tipo: border-style: solid;
+  cor: border-color: black;
   #######################################################################################
-    É possível realizar a mesma declaração utilizando o comando: boder: <tamanho> <estilo> <cor>
+  É possível realizar a mesma declaração utilizando o comando: boder: <tamanho> <estilo> <cor>
   */
   border: 2px solid black;
   /* Arredondando a borda, utilizando o border radius, 
   você pode especificar cada tamanho dos cantos da borda ou passar tudo de uma vez com um valor fixo para todos os cantos*/
   border-radius: 10px;
+}
+
+/* Mudando a cor dos itens quando o mouse estiver por cima */
+.produtos li:hover {
+  border-color: #c78c19;
+}
+
+/* Mudando a cor do item quando clicado */
+.produtos li:active {
+  border-color: #088c19;
+}
+
+/* Alterando as propriedades do elemento h2 quando o mouse estiver emcima */
+.produtos li:hover h2 {
+  font-size: 34px;
 }
 
 .produtos h2 {
