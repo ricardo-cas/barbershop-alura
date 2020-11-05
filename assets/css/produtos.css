@@ -57,6 +57,12 @@ header {
   width: 30%;
   /* orientar o alinhamento do inline-block pela linha de cima, por default é pela linha abaixo */
   vertical-align: top;
+  /* Ajustando espaçamento externo dos itens */
+  margin: 0 1.5%;
+  /* Ajustando o espaçamento interno do itens */
+  padding: 30px 20px;
+  /* Ajustando as margens para que o CSS não some o espaçamento interno com o espaçamento total (em porcentagem) */
+  box-sizing: border-box;
 }
 
 .produtos h2 {
@@ -71,6 +77,9 @@ header {
   font-size: 22px;
   /* definindo o texto como negrito */
   font-weight: bold;
+  /* definindo o espaçamento externo 
+  topo, baixo e laterais*/
+  margin: 10px 0 0;
 }
 
 .produto-descricao {
