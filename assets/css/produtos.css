@@ -1,5 +1,24 @@
 header {
   background: #bbbbbb;
+  /* colocando um espaçamento interno de 20px para cima e para baixo e 0 para direita e esquerda */
+  padding: 20px 0;
+}
+
+.caixa {
+  /* posição da caixa, para deixar ela ao centro */
+  position: relative;
+  /* tamanho médio de resolução dos dispositivos atuais */
+  width: 940px;
+  /* definindo  a div para ser centralizada*/
+  /* topo 0 e as laterais sempre se ajustando ao tamanho da tela do dispositivo */
+  margin: 0 auto;
+}
+
+#nav-produtos {
+  /* menu é absoluto */
+  position: absolute;
+  top: 110px;
+  right: 0;
 }
 
 #nav-produtos li {
