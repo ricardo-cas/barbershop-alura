@@ -2,21 +2,21 @@ header {
   background: #bbbbbb;
 }
 
-#nav-produtos li{
-    /* Transformando a lista de links na horizontal com display: inline */
-    display: inline;
-    /* aumentando o espaçamento entre os itens da linha */
-    /* topo, direita, abaixo, esquerda */
-    margin: 0 0 0 15px;
+#nav-produtos li {
+  /* Transformando a lista de links na horizontal com display: inline */
+  display: inline;
+  /* aumentando o espaçamento entre os itens da linha */
+  /* topo, direita, abaixo, esquerda */
+  margin: 0 0 0 15px;
 }
 
 #nav-produtos a {
-    /* Transformando o texto todo em todo MAIUSCULA */
-    text-transform: uppercase;
-    /* Tirando o sublinhado do texto */
-    text-decoration: none;
-    /* Definindo a cor dos links */
-    color: black;
-    /* definindo que o texto será todo em negrito */
-    font-weight: bold;
+  /* Transformando o texto todo em todo MAIUSCULA */
+  text-transform: uppercase;
+  /* Tirando o sublinhado do texto */
+  text-decoration: none;
+  /* Definindo a cor dos links */
+  color: black;
+  /* definindo que o texto será todo em negrito */
+  font-weight: bold;
 }
