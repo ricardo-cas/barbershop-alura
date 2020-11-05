@@ -46,11 +46,11 @@
   </head>
   <body>
     <header>
-      <!-- Criado a barra de navegação do site, utilizando a tag <nav> -->
-      <div class="caixa">
       <h1>
-        <!-- Inserindo o logo da barbearia -->
-        <img src="./assets/img/logo.png" alt="logo barbearia" />
+        <!-- Criado a barra de navegação do site, utilizando a tag <nav> -->
+        <div class="caixa">
+          <!-- Inserindo o logo da barbearia -->
+          <img src="./assets/img/logo.png" alt="logo barbearia" />
 
           <nav id="nav-produtos">
             <ul>
@@ -62,5 +62,36 @@
         </div>
       </h1>
     </header>
+    <!-- Conteúdo principal da página, utilizar a tag <main> -->
+    <main>
+      <ul>
+        <!-- Para criar a estrutura de forma mais rápida, você pode utilizar o recurso do VS Code
+        para criar a cascata de elemento, por exemplo:li*3>h2>img>p>p -->
+        <li>
+          <h2>
+            <img src="./assets/img/barba.jpg" alt="imagem que indica o pacote para corte de barba">
+              <p>Na tesoura ou máquina, como o cliente preferir
+                <p>R$ 18,00</p>
+              </p>
+          </h2>
+        </li>
+        <li>
+          <h2>
+            <img src="./assets/img/cabelo.jpg" alt="imagem que indica o pacote de corte de cabelo">
+              <p>Corte e desenho profissional de barba
+                <p>R$ 25,00</p>
+              </p>
+          </h2>
+        </li>
+        <li>
+          <h2>
+            <img src="./assets/img/cabelo+barba.jpg" alt="imagem que indica o pacote completo de cabelo e barba">
+              <p>Pacote completo de cabelo e barba
+                <p>R$ 35,00</p>
+              </p>
+          </h2>
+        </li>
+      </ul>
+    </main>
   </body>
 </html>
