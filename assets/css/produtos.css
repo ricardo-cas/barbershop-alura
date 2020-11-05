@@ -39,3 +39,41 @@ header {
   /* definindo que o texto será todo em negrito */
   font-weight: bold;
 }
+
+.produtos {
+  width: 940px;
+  /* definindo o espaçamento externo */
+  margin: 0 auto;
+  /* definindo o espaçamento interno */
+  padding: 50px 0;
+}
+
+.produtos li {
+  /* definindo os itens como em linha */
+  display: inline-block;
+  /* alinhando os elementos no centro */
+  text-align: center;
+  /* mexendo na distribuição/largura do conteúdo */
+  width: 30%;
+  /* orientar o alinhamento do inline-block pela linha de cima, por default é pela linha abaixo */
+  vertical-align: top;
+}
+
+.produtos h2 {
+  /* definindo o tamanho */
+  font-size: 30px;
+  /* definindo o texto como negrito */
+  font-weight: bold;
+}
+
+.produto-preco {
+  /* definindo o tamanho */
+  font-size: 22px;
+  /* definindo o texto como negrito */
+  font-weight: bold;
+}
+
+.produto-descricao {
+  /* definindo o tamanho */
+  font-size: 18px;
+}
