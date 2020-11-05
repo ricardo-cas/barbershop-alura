@@ -73,6 +73,9 @@ header {
     É possível realizar a mesma declaração utilizando o comando: boder: <tamanho> <estilo> <cor>
   */
   border: 2px solid black;
+  /* Arredondando a borda, utilizando o border radius, 
+  você pode especificar cada tamanho dos cantos da borda ou passar tudo de uma vez com um valor fixo para todos os cantos*/
+  border-radius: 10px;
 }
 
 .produtos h2 {
