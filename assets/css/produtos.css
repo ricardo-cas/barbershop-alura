@@ -120,3 +120,16 @@ header {
   /* definindo o tamanho */
   font-size: 18px;
 }
+
+footer {
+  text-align: center;
+  background: black;
+  /* margin-top: 20px; */
+  padding: 40px 0;
+}
+
+.copyright {
+  color: white;
+  font-size: 13px;
+  margin: 20px 0 0;
+}
