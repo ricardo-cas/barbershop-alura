@@ -40,6 +40,12 @@ header {
   font-weight: bold;
 }
 
+/* definindo o comportamento do elemento quando o mouse for posicionado sobre ele */
+#nav-produtos a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+
 .produtos {
   width: 940px;
   /* definindo o espaçamento externo */
