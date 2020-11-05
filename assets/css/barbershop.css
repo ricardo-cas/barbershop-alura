@@ -1,5 +1,5 @@
 body {
-  /* background: #848484; */
+  background: #848484;
 }
 /* 
 Dimenções no CSS:
@@ -53,14 +53,14 @@ em {
   padding: 30px;
 }
 
-.texto-centralizado{
-    text-align: center;
+.texto-centralizado {
+  text-align: center;
 }
 .beneficios {
   background: #cccccc;
 }
-.titulo-principal{
-    padding-left: 20px;
+.titulo-principal {
+  padding-left: 20px;
 }
 
 ul {
@@ -79,9 +79,15 @@ ul {
   padding: 20px;
 }
 
-
 /* Adicionado rodapé para o site */
 footer {
-    text-align: center;
-    font-style: italic;
+  text-align: center;
+  font-style: italic;
+  background-color: #000000;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 13px;
+  text-align: center;
 }
