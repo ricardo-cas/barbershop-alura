@@ -63,6 +63,16 @@ header {
   padding: 30px 20px;
   /* Ajustando as margens para que o CSS não some o espaçamento interno com o espaçamento total (em porcentagem) */
   box-sizing: border-box;
+  /* 
+  #######################################################################################
+    Ajustando as propriedades da borda dos itens, pelos seus 3 principais aspectos:
+    tamanho: border-width: 2px;
+    tipo: border-style: solid;
+    cor: border-color: black;
+  #######################################################################################
+    É possível realizar a mesma declaração utilizando o comando: boder: <tamanho> <estilo> <cor>
+  */
+  border: 2px solid black;
 }
 
 .produtos h2 {
