@@ -32,3 +32,34 @@ header {
   display: block;
   background-repeat: no-repeat;
 }
+
+.about {
+  width: 940px;
+  margin: 20px auto;
+  padding: 20px auto;
+  text-align: center;
+}
+.about h1 {
+  font-weight: bold;
+  /* text-transform: capitalize; */
+  text-transform: uppercase;
+}
+
+.about li {
+  display: inline-block;
+  text-align: start;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.titulo-about {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+}
