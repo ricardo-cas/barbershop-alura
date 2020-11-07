@@ -26,3 +26,9 @@ header {
   color: black;
   font-weight: bold;
 }
+
+.banner {
+  text-align: center;
+  display: block;
+  background-repeat: no-repeat;
+}
