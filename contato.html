@@ -62,7 +62,19 @@
         </h1>
       </header>
       <!-- formulários -->
-      <main>Form</main>
+      <main>
+        <form action="">
+          <!-- Para uma melhor experiência do usuário
+            é melhor sempre criar um label for indicando o id do campo, pois assim
+        o usuário pode clicar na label que será enviado o focus para o campo -->
+          <label for="nomecompleto">Nome Completo</label>
+          <input type="text" id="nomecompleto" />
+          <label for="email">E-mail</label>
+          <input type="text" id="email" />
+          <label for="telefone">Telefone</label>
+          <input type="text" id="telefone" />
+        </form>
+      </main>
       <footer>
         <img
           src="./assets/img/logo-branco.png"
