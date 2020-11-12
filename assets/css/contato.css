@@ -1,0 +1,136 @@
+header {
+  background: #bbbbbb;
+  padding: 20px 0;
+}
+
+.box {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+#menu {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+#menu li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+#menu a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.banner {
+  text-align: center;
+  display: block;
+  background-repeat: no-repeat;
+}
+
+.about {
+  width: 940px;
+  margin: 20px auto;
+  padding: 20px auto;
+  text-align: center;
+}
+.about h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.about li {
+  display: inline-block;
+  text-align: start;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.titulo-about {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+}
+
+/* Mapa */
+
+.mapa {
+  width: 940px;
+  margin: 0px auto;
+  padding: 20px auto;
+  text-align: center;
+}
+
+.mapa h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.mapa li {
+  display: block;
+  text-align: start;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+.titulo-mapa {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  background: black;
+  /* margin-top: 20px; */
+  padding: 40px 0;
+}
+
+.copyright {
+  color: white;
+  font-size: 13px;
+  margin: 20px 0 0;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label,
+p {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+/* colocando as mesmas configurações para o input e também para o textarea
+sempre que quiser fazer isso utilize , e o outro conteúdo */
+
+.input-padrao {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}

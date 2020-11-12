@@ -67,14 +67,20 @@
             é melhor sempre criar um label for indicando o id do campo, pois assim
         o usuário pode clicar na label que será enviado o focus para o campo -->
         <label for="nomecompleto">Nome Completo</label>
-        <input type="text" id="nomecompleto" />
+        <input type="text" id="nomecompleto" class="input-padrao" />
         <label for="email">E-mail</label>
-        <input type="text" id="email" />
+        <input type="text" id="email" class="input-padrao" />
         <label for="telefone">Telefone</label>
-        <input type="text" id="telefone" />
+        <input type="text" id="telefone" class="input-padrao" />
 
         <label for="comentario">Mensagem</label>
-        <textarea name="comentario" id="comentario" cols="50" rows="10">
+        <textarea
+          name="comentario"
+          id="comentario"
+          cols="50"
+          rows="10"
+          class="input-padrao"
+        >
 Digite aqui sua mensagem</textarea
         >
 
@@ -86,30 +92,40 @@ Digite aqui sua mensagem</textarea
     ser selecionado -->
 
           <!-- criando botão de seleção do e-mail -->
-          <label for="radio-email">E-mail</label>
-          <input type="radio" name="contato" id="radio-email" value="email" />
+          <label for="radio-email"
+            ><input
+              type="radio"
+              name="contato"
+              id="radio-email"
+              value="email"
+            />E-mail</label
+          >
 
-          <label for="radio-telefone">Telefone</label>
-          <input
-            type="radio"
-            name="contato"
-            id="radio-telefone"
-            value="telefone"
-          />
+          <label for="radio-telefone"
+            ><input
+              type="radio"
+              name="contato"
+              id="radio-telefone"
+              value="telefone"
+            />Telefone</label
+          >
 
-          <label for="radio-email">Whatsapp</label>
-          <input
-            type="radio"
-            name="contato"
-            id="radio-whatsapp"
-            value="email"
-          />
+          <label for="radio-whatsapp"
+            ><input
+              type="radio"
+              name="contato"
+              id="radio-whatsapp"
+              value="email"
+            />Whatsapp</label
+          >
         </div>
 
         <label for="newsletter"
-          >Gostaria de receber nossas novidades por e-mail?</label
-        >
-        <input type="checkbox" name="newsletter" id="newsletter" />
+          >Gostaria de receber nossas novidades por e-mail?<input
+            type="checkbox"
+            name="newsletter"
+            id="newsletter"
+        /></label>
         <!-- Criando o botão enviar
         se deixar somente com o tipo submit, ele irá assumir a lingua do sistema operacional para dar o nome para o botao
     se quiser deixar o nome fixo em uma lígua, atribua o value="texto" -->
