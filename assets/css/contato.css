@@ -119,7 +119,7 @@ form {
 }
 
 form label,
-p {
+legend {
   display: block;
   font-size: 20px;
   margin: 0 0 10px;
@@ -137,4 +137,37 @@ sempre que quiser fazer isso utilize , e o outro conteúdo */
 
 .checkbox {
   margin: 20px 0;
+}
+
+.enviar {
+  /* tamanho do botão */
+  width: 40%;
+  /* espaçamento entre o texto e topo e baixo */
+  padding: 15px 0;
+  /* cor de fundo do botão */
+  background-color: orange;
+  /* cor do texto */
+  color: white;
+  /* sem borda */
+  border: none;
+  /* tamanho da borda arredondada */
+  border-radius: 10px;
+  /* tamanho da fonte */
+  font-size: 18px;
+  /* adicionando a transicao */
+  transition: 0.5s all;
+  /* tudo em maiúscula */
+  text-transform: capitalize;
+  /* definindo o tipo de cursor do botão */
+  cursor: pointer;
+}
+/*  definindo que ao passar o mouse por cima, terá uma mudança de cor de fundo com a duração de meio segundo */
+.enviar:hover {
+  background: darkslateblue;
+  /* definindo que tudo sera aumentado em 20% */
+  transform: scale(1.2);
+  /* definindo uma rotacao para o elemento */
+  /* transform: rotate(50deg); */
+  /* definindo que tudo sera aumentado em 20%  e tera uma rotacao*/
+  /* transform: rotate(90deg) scale(1.2); */
 }
