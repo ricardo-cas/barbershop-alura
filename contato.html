@@ -168,26 +168,32 @@
         <input type="submit" class="enviar" />
       </form>
       <!-- Criando a tabela de horarios -->
+      <!-- tr é a linha -->
+      <!-- td é a célula -->
       <div class="tabela-horarios">
         <table>
-          <!-- tr é a linha -->
-          <!-- td é a célula -->
-          <tr>
-            <td>Dia</td>
-            <td>Horários</td>
-          </tr>
-          <tr>
-            <td>Segunda</td>
-            <td>8h - 20h</td>
-          </tr>
-          <tr>
-            <td>Quarta</td>
-            <td>8h - 20h</td>
-          </tr>
-          <tr>
-            <td>Sexta</td>
-            <td>8h - 20h</td>
-          </tr>
+          <thead>
+            <!-- para dizer q a primeira célula é um cabeçalho, utilizamos a tag thead -->
+            <tr>
+              <td>Dia</td>
+              <td>Horários</td>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- para dizer onde está o conteúdo da tabela, utilizamos a tag tbody -->
+            <tr>
+              <td>Segunda</td>
+              <td>8h - 20h</td>
+            </tr>
+            <tr>
+              <td>Quarta</td>
+              <td>8h - 20h</td>
+            </tr>
+            <tr>
+              <td>Sexta</td>
+              <td>8h - 20h</td>
+            </tr>
+          </tbody>
         </table>
       </div>
     </main>
