@@ -8,8 +8,32 @@ Dimenções no CSS:
     - Espaçamento interno no elemento -> padding, pode ser configurado de várias formas, ele pode ser configurado em todos os lados, ou so pra cima, ou só pra baixo, ou so pra laterais. padding é o espaçamento interno, para fazer com que o elemento se comporte melhor no espaço que ele já tem.
     - Espaçamento externo do elemento -> margin. ou para direita ou para esquerda, ou todos os lados
 */
-#banner {
+.banner {
   width: 100%;
+}
+
+.box {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+#menu {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+#menu li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+#menu a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 #principal {
@@ -80,14 +104,16 @@ ul {
 }
 
 /* Adicionado rodapé para o site */
+
 footer {
   text-align: center;
-  font-style: italic;
-  background-color: #000000;
+  background: black;
+  /* margin-top: 20px; */
+  padding: 40px 0;
 }
 
 .copyright {
-  color: #ffffff;
+  color: white;
   font-size: 13px;
-  text-align: center;
+  margin: 20px 0 0;
 }

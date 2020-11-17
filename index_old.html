@@ -46,15 +46,28 @@
   <body>
     <!-- No HTML 5 o cabeçalho devemos utilizar a tag header -->
     <header>
-      <h1 class="titulo-principal">Barbearia Digital</h1>
+      <h1>
+        <div class="box">
+          <img src="./assets/img/logo.png" alt="banner barbearia" />
+          <!-- Menu principal -->
+          <nav id="menu">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./produtos.html">Produtos</a></li>
+              <li><a href="./contato.html">Contato</a></li>
+            </ul>
+          </nav>
+        </div>
+      </h1>
     </header>
     <!-- para utilizar uma imagem, utilize a tag IMG -->
-    <img
-      id="banner"
-      src="./assets/img/banner.jpg"
-      alt="cadeiras de barbearia"
-    />
-
+    <div class="banner">
+      <img
+        id="banner"
+        src="./assets/img/banner.jpg"
+        alt="cadeiras de barbearia"
+      />
+    </div>
     <!-- As divisões servem para marcar o conteúdo e a partir do nosso CSS fazer o estilo que quisermos -->
     <div class="principal">
       <h2 class="texto-centralizado">Sobre a Barbearia Digital</h2>
@@ -95,11 +108,8 @@
     </div>
   </body>
   <footer>
+    <img src="./assets/img/logo-branco.png" alt="imagem do rodapé da página" />
     <p class="copyright">
-      <img
-        src="./assets/img/logo-branco.png"
-        alt="imagem do rodapé da página"
-      />
       Copyright &copy; 2020 Ricardo Digital, All rights reserved.
     </p>
   </footer>
