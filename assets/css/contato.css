@@ -171,3 +171,22 @@ sempre que quiser fazer isso utilize , e o outro conteúdo */
   /* definindo que tudo sera aumentado em 20%  e tera uma rotacao*/
   /* transform: rotate(90deg) scale(1.2); */
 }
+
+/* ajustes na tabela */
+table {
+  margin: 20px 0 20px;
+}
+
+thead {
+  background: #555555;
+  font-weight: bold;
+  color: white;
+}
+
+td,
+th {
+  /* ajustando a borda */
+  border: 1px solid #000000;
+  /* espaçamento lateral de 16px e 8px pra cima e pra baixo  */
+  padding: 15px 8px;
+}
