@@ -67,11 +67,32 @@
             é melhor sempre criar um label for indicando o id do campo, pois assim
         o usuário pode clicar na label que será enviado o focus para o campo -->
         <label for="nomecompleto">Nome Completo</label>
-        <input type="text" id="nomecompleto" class="input-padrao" />
+        <!-- Se quiser marcar um campo como obrigatório, é necessário colocar o atributo required -->
+        <input
+          type="text"
+          id="nomecompleto"
+          class="input-padrao"
+          autocomplete="on"
+          required
+        />
+        <!-- se quiser inserir uma máscara de preenchimento do campo, é necessário colocar o atributo placeholder -->
         <label for="email">E-mail</label>
-        <input type="text" id="email" class="input-padrao" />
+        <input
+          type="email"
+          id="email"
+          class="input-padrao"
+          autocomplete="on"
+          required
+          placeholder="email@dominio.com"
+        />
         <label for="telefone">Telefone</label>
-        <input type="text" id="telefone" class="input-padrao" />
+        <input
+          type="tel"
+          id="telefone"
+          class="input-padrao"
+          autocomplete="on"
+          required
+        />
 
         <label for="comentario">Mensagem</label>
         <textarea
@@ -80,9 +101,9 @@
           cols="50"
           rows="10"
           class="input-padrao"
-        >
-Digite aqui sua mensagem</textarea
-        >
+          required
+          placeholder="Deixe sua mensagem aqui"
+        ></textarea>
 
         <div>
           <p>Como prefere ter o nosso contato?</p>
@@ -109,6 +130,7 @@ Digite aqui sua mensagem</textarea
               value="telefone"
             />Telefone</label
           >
+          <!-- Para deixar uma opção já selecionada, utilze o atributo checked -->
 
           <label for="radio-whatsapp"
             ><input
@@ -116,6 +138,7 @@ Digite aqui sua mensagem</textarea
               name="contato"
               id="radio-whatsapp"
               value="email"
+              checked
             />Whatsapp</label
           >
         </div>
