@@ -28,9 +28,10 @@ header {
 }
 
 .banner {
+  width: 100%;
   text-align: center;
-  display: block;
-  background-repeat: no-repeat;
+  /* display: block;
+  background-repeat: no-repeat; */
 }
 
 .about {
