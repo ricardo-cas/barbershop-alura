@@ -105,8 +105,10 @@
           placeholder="Deixe sua mensagem aqui"
         ></textarea>
 
-        <div>
-          <p>Como prefere ter o nosso contato?</p>
+        <!-- Por convenção é melhor utilizar o tipo fieldset para demarcar partes especificas de um formulário -->
+
+        <fieldset>
+          <legend>Como prefere ter o nosso contato?</legend>
 
           <!--  Criando os botões de seleção, para que somente um fique ativo
         é necessário você atribuir o atributo name e assim somente 1 poderá
@@ -141,17 +143,17 @@
               checked
             />Whatsapp</label
           >
-        </div>
+        </fieldset>
         <!--  Criando um menu dropdown para o usuario selecionar -->
 
-        <div>
-          <p>Qual horário prefere ser atendido</p>
+        <fieldset>
+          <legend>Qual horário prefere ser atendido</legend>
           <select name="" id="">
             <option value="">Manhã</option>
             <option value="">Tarde</option>
             <option value="">Noite</option>
           </select>
-        </div>
+        </fieldset>
 
         <label for="newsletter" class="checkbox"
           >Gostaria de receber nossas novidades por e-mail?<input
