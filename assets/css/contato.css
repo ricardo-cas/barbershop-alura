@@ -138,3 +138,10 @@ sempre que quiser fazer isso utilize , e o outro conteúdo */
 .checkbox {
   margin: 20px 0;
 }
+
+.teste-html h1 {
+  text-transform: uppercase;
+  font-size: 36px;
+  color: red;
+  font-weight: bolder;
+}
