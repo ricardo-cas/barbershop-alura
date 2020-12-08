@@ -30,8 +30,6 @@ header {
 .banner {
   width: 100%;
   text-align: center;
-  /* display: block;
-  background-repeat: no-repeat; */
 }
 
 /* .banner img {
@@ -112,4 +110,31 @@ footer {
   color: white;
   font-size: 13px;
   margin: 20px 0 0;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background: crimson;
+  }
+
+  .box,
+  .mapa,
+  .about,
+  main,
+  .mapa h1,
+  .titulo-mapa,
+  .titulo-about {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  #menu {
+    position: static;
+  }
+  .banner {
+    width: 100%;
+  }
 }
